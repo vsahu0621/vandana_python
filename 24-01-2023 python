@@ -1,0 +1,288 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPgimw0HgxaL3ZG4KTANAgM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vsahu0621/vandana_python/blob/main/24-01-2023%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "m7bl6LlhdLQc"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "xZm4s31sdPqJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "km=float(input(\"ENTER KILOMETER VALUE=\"))\n",
+        "m=km*1000\n",
+        "cm=km*100000\n",
+        "\n",
+        "mm=km*1000000\n",
+        "print(\"THE KILOMETER IN METER IS=\",m)\n",
+        "print(\"THE GIVEN KILOMETER IN CENTIMETER IS\",cm)\n",
+        "print(\"THE GIVEN KILOMETER IN MILIMETER IS=\",mm)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eSFQgwlvhLUV",
+        "outputId": "1acdeaf0-77ef-4c34-b00b-701026055837"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ENTER KILOMETER VALUE=10.\n",
+            "THE KILOMETER IN METER IS= 10000.0\n",
+            "THE GIVEN KILOMETER IN CENTIMETER IS 1000000.0\n",
+            "THE GIVEN KILOMETER IN MILIMETER IS= 10000000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3.INPUT TWO NUMBER FIND SUM WITHOUT'+'OPERATOR"
+      ],
+      "metadata": {
+        "id": "tm5gaBeti-dz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"ENTER a VALUE=\"))\n",
+        "b=int (input(\"ENTER b VALUF=\"))\n",
+        "def sum(a,b):\n",
+        "  for i in range(1,b + 1):\n",
+        "    a=a+1\n",
+        "    return a\n",
+        "    print('SUM OF NUMBER=',sum(a,b))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1qmNgBrvjcHe",
+        "outputId": "607e1aec-8cea-4fa9-cba5-669c34291f8d"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "ENTER a VALUE=49\n",
+            "ENTER b VALUF=48\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4.INPUT TWO NUMBERS FIND REMAINDER WITHOUT'&'"
+      ],
+      "metadata": {
+        "id": "sb1Dv0mZlCfu"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " a=int(input(\"ENTER a VALUE=\"))\n",
+        " b=int(input(\"ENTER b VALUE=\"))\n",
+        " def rem(a,b):\n",
+        "   return(a-b*(a//b))\n",
+        " print(\"THE REMAINDER IS=\",rem(a,b))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WXwqP84ilXhm",
+        "outputId": "d9556b1d-e1ed-4ab8-f21b-14ce3320b69f"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ENTER a VALUE=100\n",
+            "ENTER b VALUE=7\n",
+            "THE REMAINDER IS= 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5.IMPUT TEMPERATUE FINDS CELSIUS AND FAHRENHEIT AND VICE-VERSA"
+      ],
+      "metadata": {
+        "id": "CWjIE6q7nDEP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " Celsius=float(input(\"Enter the value\"))\n",
+        " fahrenheit= (Celsius * 1.8) + 32\n",
+        " print(\"The value in fahrenheit\",fahrenheit)\n",
+        " fahrenheit_f=float(input(\"Enter the value:\"))\n",
+        " celsius_c=int((fahrenheit_f - 32) / 1.8)\n",
+        " print(\"The value in Celsius\",Celsius_c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tnDs_3itniv8",
+        "outputId": "5ee88860-0a89-402b-ae18-13866181ad1e"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the value23\n",
+            "The value in fahrenheit 73.4\n",
+            "Enter the value:73.4\n",
+            "The value in Celsius 23\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6.INPUT A NUMBER FINDS REVERSE NUMBER WITHOUT LOOPING STRUCTURE"
+      ],
+      "metadata": {
+        "id": "a-qtnWa5u9ga"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input('Enter the number: '))\n",
+        "rev = int(str(n)[::-1])\n",
+        "print('The reverse number is =', rev)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lZvbOt2IvbNA",
+        "outputId": "91b4b3b9-7d25-427f-93cd-fcda1ecda0d5"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number: 123\n",
+            "The reverse number is = 321\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "QodHafW-dQV9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1.Input radius finds AREA of circle and PERIMETER of the CIRCLE."
+      ],
+      "metadata": {
+        "id": "hCPvnLRGdRbS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r=int(input(\"ENTER RADIUS OF THE CIRCLE:\"))\n",
+        "area=3.141*r*r\n",
+        "perimeter=2*3.141*r\n",
+        "print(\"THE AREA OF CIRCLE OF GIVEN CIRCLE IS=\",area)\n",
+        "print (\"THE PERIMETER OF CIRCLE OF GIVEN CIRCLE IS=\",perimeter)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zDsSreNyeI4j",
+        "outputId": "069dc1dd-0857-4dd7-92e3-38937d0bc3be"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ENTER RADIUS OF THE CIRCLE:4\n",
+            "THE AREA OF CIRCLE OF GIVEN CIRCLE IS= 50.256\n",
+            "THE PERIMETER OF CIRCLE OF GIVEN CIRCLE IS= 25.128\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "INPUT KILOMETER CONVERTS TO CENTIMETER,METER AND MILIMETER"
+      ],
+      "metadata": {
+        "id": "_u5FY8qMgz5i"
+      }
+    }
+  ]
+}
